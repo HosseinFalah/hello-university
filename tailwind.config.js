@@ -16,7 +16,25 @@ export default {
   theme: {
     fontFamily: {
       Vazir: ['Vazirmatn']
+    },
+    extend: {
+      colors: {
+        secondary: '#606060',
+        primary: '#E75D2A'
+      },
+      backgroundColor: {
+        secondary: '#DFDFDF',
+        primary: {
+          100: '#FACDBE',
+          900: '#E75D2A'
+        }
+      }
     }
   },
-  plugins: [],
-}
+  corePlugins: {
+    aspectRatio: false,
+  },
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+    // ...
+  ],}
