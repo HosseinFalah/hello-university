@@ -23,7 +23,10 @@ export default {
         primary: '#E75D2A'
       },
       backgroundColor: {
-        secondary: '#DFDFDF',
+        secondary: {
+          100: '#DFDFDF',
+          500: '#D9D9D9'
+        },
         primary: {
           100: '#FACDBE',
           900: '#E75D2A'
