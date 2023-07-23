@@ -24,11 +24,14 @@ export default {
       },
       backgroundColor: {
         secondary: {
+          300: '#E6E6E6',
           100: '#DFDFDF',
-          500: '#D9D9D9'
+          500: '#D9D9D9',
+          800: '#606060'
         },
         primary: {
           100: '#FACDBE',
+          800: '#F2632E',
           900: '#E75D2A'
         }
       }

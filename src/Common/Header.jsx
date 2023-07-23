@@ -45,9 +45,11 @@ const Header = () => {
                         <HiOutlineMoon size={25}/>
                     </button>
                     <div className="border-l border-gray-300"></div>
-                    <button className="bg-primary-100 ring-1 ring-primary text-primary rounded-2xl p-2">
+                    <Link 
+                        to={`/auth`} 
+                        className="bg-primary-100 ring-1 ring-primary text-primary rounded-2xl p-2">
                         <FiUser size={25}/>
-                    </button>
+                    </Link>
                 </div>
             </nav>
         </header>

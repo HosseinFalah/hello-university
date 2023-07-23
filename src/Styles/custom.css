@@ -12,3 +12,9 @@
   justify-content: center;
   align-items: center;
 }
+
+.main--banner{
+  background: url('/Images/Rectangle-banner.svg') no-repeat bottom;
+  background-size: contain;
+  background-color: #D9D9D9;
+}

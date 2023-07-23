@@ -5,9 +5,3 @@
 body {
   background: #fafafa;
 }
-
-.main--banner{
-  background: url('../../public/Images/Rectangle-banner.svg') no-repeat bottom;
-  background-size: contain;
-  background-color: #D9D9D9;
-}
