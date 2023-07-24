@@ -8,14 +8,16 @@ const Header = () => {
         <header className="container m-auto max-w-screen-xl">
             <nav className="flex items-center justify-between">
                 <div className="flex items-center">
-                    <img 
-                        src="/Images/Logo.png" 
-                        className="aspect-w-16 h-20 object-cover"
-                        alt="Logo" />
+                    <Link to={`/`}>
+                        <img 
+                            src="/Images/Logo.png" 
+                            className="aspect-w-16 h-20 object-cover"
+                            alt="Logo" />
+                    </Link>
                     <div className="flex items-center justify-between">
                         <ul className="flex items-center gap-x-4">
                             <li className="flex items-center border-r border-gray-400 pr-4">
-                                <Link className="text-secondary font-medium flex items-center text-sm gap-2">
+                                <Link to={`/products`} className="text-secondary font-medium flex items-center text-sm gap-2">
                                     <FiBook className="text-[#747474]" size={22}/>
                                     محصولات
                                 </Link>

@@ -5,7 +5,7 @@ import { SiAparat } from "react-icons/si";
 
 const Footer = () => {
     return (
-        <div className="m-auto max-w-screen-xl py-8">
+        <footer className="m-auto max-w-screen-xl py-8">
             <div className="grid grid-cols-3 gap-x-8">
                 <div className="space-y-5">
                     <img src="/Images/Logo.png" className="w-60 h-14 object-cover" alt="" />
@@ -81,7 +81,7 @@ const Footer = () => {
             </div>
             <div className="border border-secondary border-dashed my-8"></div>
             <p className="text-center text-secondary">© کلیه حقوق این وب‌سایت متعلق به سلام دانشگاه می‌باشد.</p>
-        </div>
+        </footer>
     )
 }
 

@@ -1,6 +1,13 @@
+import { lazy } from "react";
 import { createBrowserRouter } from "react-router-dom"
 import MainLayout from "@/Container/Layouts/MainLayout";
-import { Home, Auth, Products, TermsAndConditions } from "@/Pages";
+
+const Home = lazy(() => import('@/Pages/Home'));
+const Products = lazy(() => import('@/Pages/Products'));
+const Product = lazy(() => import('@/Pages/Product'));
+const TermsAndConditions = lazy(() => import('@/Pages/TermsAndConditions'));
+const About = lazy(() => import('@/Pages/About'));
+const Auth = lazy(() => import('@/Pages/Auth/Auth'));
 
 const router = createBrowserRouter([
     {
@@ -16,8 +23,16 @@ const router = createBrowserRouter([
                 element: <Products/>
             },
             {
+                path: 'product/:productName',
+                element: <Product/>
+            },
+            {
                 path: 'terms-and-conditions',
                 element: <TermsAndConditions/>
+            },
+            {
+                path: 'about',
+                element: <About/>
             }
         ]
     },

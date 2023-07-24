@@ -1,9 +1,11 @@
 import { BiDollar } from "react-icons/bi"
 import { FiBook, FiSearch, FiUserCheck } from "react-icons/fi"
+import { Link } from "react-router-dom"
+import { Ads } from "@/Common"
 
 const Products = () => {
     return (
-        <div className="container m-auto max-w-screen-xl">
+        <div>
             <div className="bg-primary-200 p-5 my-5 rounded-2xl">
                 <div className="flex items-center gap-x-2">
                     <FiSearch className="text-white" size={30}/>
@@ -90,13 +92,15 @@ const Products = () => {
                 <div className="col-span-9">
                     <div className="grid grid-cols-3 gap-6">
                         <div className="bg-white border border-[#9D9D9D] rounded-xl">
-                            <img 
-                                src="/Images/slider-book.png"
-                                className="m-auto"
-                                alt="book" />
-                            <div className="px-4">
-                                <p className="text-primary font-bold text-xl">مدیریت منابع انسانی پیشرفته</p>
-                            </div>
+                            <Link to={`/product/raect`}>
+                                <img 
+                                    src="/Images/slider-book.png"
+                                    className="m-auto"
+                                    alt="book" />
+                                <div className="px-4">
+                                    <p className="text-primary font-bold text-xl">مدیریت منابع انسانی پیشرفته</p>
+                                </div>
+                            </Link>
                             <div className="space-y-3 p-4">
                                 <div className="flex items-center gap-x-4">
                                     <FiUserCheck className="text-primary" size={16}/>
@@ -113,13 +117,15 @@ const Products = () => {
                             </div>
                         </div>
                         <div className="bg-white border border-[#9D9D9D] rounded-xl">
-                            <img 
-                                src="/Images/slider-book.png"
-                                className="m-auto"
-                                alt="book" />
-                            <div className="px-4">
-                                <p className="text-primary font-bold text-xl">مدیریت منابع انسانی پیشرفته</p>
-                            </div>
+                            <Link to={`/product/raect`}>
+                                <img 
+                                    src="/Images/slider-book.png"
+                                    className="m-auto"
+                                    alt="book" />
+                                <div className="px-4">
+                                    <p className="text-primary font-bold text-xl">مدیریت منابع انسانی پیشرفته</p>
+                                </div>
+                            </Link>
                             <div className="space-y-3 p-4">
                                 <div className="flex items-center gap-x-4">
                                     <FiUserCheck className="text-primary" size={16}/>
@@ -136,13 +142,15 @@ const Products = () => {
                             </div>
                         </div>
                         <div className="bg-white border border-[#9D9D9D] rounded-xl">
-                            <img 
-                                src="/Images/slider-book.png"
-                                className="m-auto"
-                                alt="book" />
-                            <div className="px-4">
-                                <p className="text-primary font-bold text-xl">مدیریت منابع انسانی پیشرفته</p>
-                            </div>
+                            <Link to={`/product/raect`}>
+                                <img 
+                                    src="/Images/slider-book.png"
+                                    className="m-auto"
+                                    alt="book" />
+                                <div className="px-4">
+                                    <p className="text-primary font-bold text-xl">مدیریت منابع انسانی پیشرفته</p>
+                                </div>
+                            </Link>
                             <div className="space-y-3 p-4">
                                 <div className="flex items-center gap-x-4">
                                     <FiUserCheck className="text-primary" size={16}/>
@@ -159,13 +167,15 @@ const Products = () => {
                             </div>
                         </div>
                         <div className="bg-white border border-[#9D9D9D] rounded-xl">
-                            <img 
-                                src="/Images/slider-book.png"
-                                className="m-auto"
-                                alt="book" />
-                            <div className="px-4">
-                                <p className="text-primary font-bold text-xl">مدیریت منابع انسانی پیشرفته</p>
-                            </div>
+                            <Link to={`/product/raect`}>
+                                <img 
+                                    src="/Images/slider-book.png"
+                                    className="m-auto"
+                                    alt="book" />
+                                <div className="px-4">
+                                    <p className="text-primary font-bold text-xl">مدیریت منابع انسانی پیشرفته</p>
+                                </div>
+                            </Link>
                             <div className="space-y-3 p-4">
                                 <div className="flex items-center gap-x-4">
                                     <FiUserCheck className="text-primary" size={16}/>
@@ -182,13 +192,15 @@ const Products = () => {
                             </div>
                         </div>
                         <div className="bg-white border border-[#9D9D9D] rounded-xl">
-                            <img 
-                                src="/Images/slider-book.png"
-                                className="m-auto"
-                                alt="book" />
-                            <div className="px-4">
-                                <p className="text-primary font-bold text-xl">مدیریت منابع انسانی پیشرفته</p>
-                            </div>
+                            <Link to={`/product/raect`}>
+                                <img 
+                                    src="/Images/slider-book.png"
+                                    className="m-auto"
+                                    alt="book" />
+                                <div className="px-4">
+                                    <p className="text-primary font-bold text-xl">مدیریت منابع انسانی پیشرفته</p>
+                                </div>
+                            </Link>
                             <div className="space-y-3 p-4">
                                 <div className="flex items-center gap-x-4">
                                     <FiUserCheck className="text-primary" size={16}/>
@@ -205,13 +217,15 @@ const Products = () => {
                             </div>
                         </div>
                         <div className="bg-white border border-[#9D9D9D] rounded-xl">
-                            <img 
-                                src="/Images/slider-book.png"
-                                className="m-auto"
-                                alt="book" />
-                            <div className="px-4">
-                                <p className="text-primary font-bold text-xl">مدیریت منابع انسانی پیشرفته</p>
-                            </div>
+                            <Link to={`/product/raect`}>
+                                <img 
+                                    src="/Images/slider-book.png"
+                                    className="m-auto"
+                                    alt="book" />
+                                <div className="px-4">
+                                    <p className="text-primary font-bold text-xl">مدیریت منابع انسانی پیشرفته</p>
+                                </div>
+                            </Link>
                             <div className="space-y-3 p-4">
                                 <div className="flex items-center gap-x-4">
                                     <FiUserCheck className="text-primary" size={16}/>
@@ -228,13 +242,15 @@ const Products = () => {
                             </div>
                         </div>
                         <div className="bg-white border border-[#9D9D9D] rounded-xl">
-                            <img 
-                                src="/Images/slider-book.png"
-                                className="m-auto"
-                                alt="book" />
-                            <div className="px-4">
-                                <p className="text-primary font-bold text-xl">مدیریت منابع انسانی پیشرفته</p>
-                            </div>
+                            <Link to={`/product/raect`}>
+                                <img 
+                                    src="/Images/slider-book.png"
+                                    className="m-auto"
+                                    alt="book" />
+                                <div className="px-4">
+                                    <p className="text-primary font-bold text-xl">مدیریت منابع انسانی پیشرفته</p>
+                                </div>
+                            </Link>
                             <div className="space-y-3 p-4">
                                 <div className="flex items-center gap-x-4">
                                     <FiUserCheck className="text-primary" size={16}/>
@@ -251,13 +267,15 @@ const Products = () => {
                             </div>
                         </div>
                         <div className="bg-white border border-[#9D9D9D] rounded-xl">
-                            <img 
-                                src="/Images/slider-book.png"
-                                className="m-auto"
-                                alt="book" />
-                            <div className="px-4">
-                                <p className="text-primary font-bold text-xl">مدیریت منابع انسانی پیشرفته</p>
-                            </div>
+                            <Link to={`/product/raect`}>
+                                <img 
+                                    src="/Images/slider-book.png"
+                                    className="m-auto"
+                                    alt="book" />
+                                <div className="px-4">
+                                    <p className="text-primary font-bold text-xl">مدیریت منابع انسانی پیشرفته</p>
+                                </div>
+                            </Link>
                             <div className="space-y-3 p-4">
                                 <div className="flex items-center gap-x-4">
                                     <FiUserCheck className="text-primary" size={16}/>
@@ -274,13 +292,15 @@ const Products = () => {
                             </div>
                         </div>
                         <div className="bg-white border border-[#9D9D9D] rounded-xl">
-                            <img 
-                                src="/Images/slider-book.png"
-                                className="m-auto"
-                                alt="book" />
-                            <div className="px-4">
-                                <p className="text-primary font-bold text-xl">مدیریت منابع انسانی پیشرفته</p>
-                            </div>
+                            <Link to={`/product/raect`}>
+                                <img 
+                                    src="/Images/slider-book.png"
+                                    className="m-auto"
+                                    alt="book" />
+                                <div className="px-4">
+                                    <p className="text-primary font-bold text-xl">مدیریت منابع انسانی پیشرفته</p>
+                                </div>
+                            </Link>
                             <div className="space-y-3 p-4">
                                 <div className="flex items-center gap-x-4">
                                     <FiUserCheck className="text-primary" size={16}/>
@@ -297,13 +317,40 @@ const Products = () => {
                             </div>
                         </div>
                         <div className="bg-white border border-[#9D9D9D] rounded-xl">
-                            <img 
-                                src="/Images/slider-book.png"
-                                className="m-auto"
-                                alt="book" />
-                            <div className="px-4">
-                                <p className="text-primary font-bold text-xl">مدیریت منابع انسانی پیشرفته</p>
+                            <Link to={`/product/raect`}>
+                                <img 
+                                    src="/Images/slider-book.png"
+                                    className="m-auto"
+                                    alt="book" />
+                                <div className="px-4">
+                                    <p className="text-primary font-bold text-xl">مدیریت منابع انسانی پیشرفته</p>
+                                </div>
+                            </Link>
+                            <div className="space-y-3 p-4">
+                                <div className="flex items-center gap-x-4">
+                                    <FiUserCheck className="text-primary" size={16}/>
+                                    <p className="text-sm text-secondary">دکتر رضا رسولی - دکتر علی صالحی</p>
+                                </div>
+                                <div className="flex items-center gap-x-4">
+                                    <FiBook className="text-primary" size={16}/>
+                                    <p className="text-sm text-secondary">انتشارات دانشگاه پیام نور</p>
+                                </div>
+                                <div className="flex items-center gap-x-4">
+                                    <BiDollar className="text-primary" size={16}/>
+                                    <p className="font-medium text-secondary">10000 تومان</p>
+                                </div>
                             </div>
+                        </div>
+                        <div className="bg-white border border-[#9D9D9D] rounded-xl">
+                            <Link to={`/product/raect`}>
+                                <img 
+                                    src="/Images/slider-book.png"
+                                    className="m-auto"
+                                    alt="book" />
+                                <div className="px-4">
+                                    <p className="text-primary font-bold text-xl">مدیریت منابع انسانی پیشرفته</p>
+                                </div>
+                            </Link>
                             <div className="space-y-3 p-4">
                                 <div className="flex items-center gap-x-4">
                                     <FiUserCheck className="text-primary" size={16}/>
@@ -331,6 +378,7 @@ const Products = () => {
                     </div>
                 </div>
             </div>
+            <Ads/>
         </div>
     )
 }

@@ -1,3 +1,5 @@
+import { Ads } from "@/Common"
+
 const TermsAndConditions = () => {
     return (
         <div className="container m-auto max-w-screen-xl">
@@ -61,6 +63,7 @@ const TermsAndConditions = () => {
                 زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
                 </p>
             </div>
+            <Ads/>
         </div>
     )
 }
