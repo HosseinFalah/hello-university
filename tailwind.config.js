@@ -31,6 +31,7 @@ export default {
         },
         primary: {
           100: '#FACDBE',
+          200: '#FF8153',
           800: '#F2632E',
           900: '#E75D2A'
         }

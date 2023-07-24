@@ -1,5 +1,6 @@
 // Import Swiper React components
 import { Navigation } from "swiper";
+import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { FiArrowLeft, FiArrowRight, FiBook, FiShoppingBag, FiUserCheck } from "react-icons/fi";
@@ -9,7 +10,7 @@ import { BsArrowLeftCircle } from "react-icons/bs";
 import { HiOutlineDownload } from "react-icons/hi";
 import { LuCheckCircle } from "react-icons/lu";
 
-import { sliderItem } from "../Constants/sliderItem";
+import { sliderItem } from "@/Constants/sliderItem";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
@@ -115,10 +116,10 @@ const Home = () => {
                         <img src="/Images/icon_lasted.png" alt="" />
                         <h4 className="text-3xl font-semibold text-primary">جدیدترین کتاب ها</h4>
                     </div>
-                    <button className="flex items-center gap-2 p-2 border border-secondary rounded-lg text-secondary">
+                    <Link to={`/products`} className="flex items-center gap-2 p-2 border border-secondary rounded-lg text-secondary">
                         مشاهده همه محصولات
                         <IoIosArrowBack/>
-                    </button>
+                    </Link>
                 </div>
                 <div className="relative">
                     <Swiper
@@ -237,10 +238,10 @@ const Home = () => {
                             <img src="/Images/icon_lasted.png" alt="" />
                             <h4 className="text-3xl font-semibold text-primary">جدیدترین جزوات</h4>
                         </div>
-                        <button className="flex items-center gap-2 p-2 border border-secondary rounded-lg text-secondary">
+                        <Link to={`/products`} className="flex items-center gap-2 p-2 border border-secondary rounded-lg text-secondary">
                             مشاهده همه محصولات
                             <IoIosArrowBack/>
-                        </button>
+                        </Link>
                     </div>
                     <div className="relative">
                         <Swiper
@@ -322,10 +323,10 @@ const Home = () => {
                         <img src="/Images/icon_lasted.png" alt="" />
                         <h4 className="text-3xl font-semibold text-primary">جدیدترین نمونه سوالات</h4>
                     </div>
-                    <button className="flex items-center gap-2 p-2 border border-secondary rounded-lg text-secondary">
+                    <Link to={`/products`} className="flex items-center gap-2 p-2 border border-secondary rounded-lg text-secondary">
                         مشاهده همه محصولات
                         <IoIosArrowBack/>
-                    </button>
+                    </Link>
                 </div>
                 <div className="relative">
                     <Swiper

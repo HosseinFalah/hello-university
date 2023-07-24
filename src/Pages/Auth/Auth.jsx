@@ -1,8 +1,8 @@
 import { FiDownload } from "react-icons/fi"
 
-const Login = () => {
+const Auth = () => {
     return (
-        <div className="min-h-screen">
+        <div className="min-h-screen space-y-8">
             <div className="flex items-center justify-center">    
                 <img 
                     src="/Images/Logo.png" 
@@ -49,4 +49,4 @@ const Login = () => {
     )
 }
 
-export default Login
+export default Auth
